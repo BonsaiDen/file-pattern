@@ -1,0 +1,30 @@
+{
+  "version": "0.5.0",
+  "name": "file-pattern",
+  "description": "Flexible pattern matching library for filenames and paths.",
+  "keywords": [
+    "pattern",
+    "matching",
+    "regular expression"
+  ],
+  "homepage": "",
+  "author": "Ivo Wetzel <ivo.wetzel@googlemail.com> (https://github.com/BonsaiDen)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BonsaiDen/file-pattern"
+  },
+  "bugs": {
+    "url": "https://github.com/BonsaiDen/file-pattern/issues"
+  },
+  "dependencies": {
+    "minimatch": "~0.2.12"
+  },
+  "engines": {
+    "node": ">=0.8",
+    "npm": ">= 1"
+  },
+  "scripts": {
+    "test": "nodeunit test/test.js"
+  },
+  "license": "MIT"
+}
